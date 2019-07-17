@@ -1,0 +1,28 @@
+{
+  "name": "attendance",
+  "version": "0.0.1",
+  "description": "Attendance Management API",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "node_modules/gulp/bin/gulp.js eslint",
+    "check-coverage": "node_modules/gulp/bin/gulp.js check-coverage",
+    "build": "node_modules/gulp/bin/gulp.js",
+    "report-coverage": "node_modules/gulp/bin/gulp.js report-coverage",
+    "start": "node_modules/.bin/nodemon server.js",
+    "debug": "node_modules/.bin/nodemon --debug server.js",
+    "test": "node_modules/gulp/bin/gulp.js test"
+  },
+  "dependencies": {
+    "body-parser": "1.7.0",
+    "core-lib": "git+https://github.com/bharatvignesh/core.git",
+    "express": "4.17.1",
+    "jsonwebtoken": "8.5.1",
+    "lodash": "^4.17.14",
+    "moment": "2.24.0",
+    "moment-timezone": "0.5.26",
+    "mongoose": "5.6.4",
+    "nconf": "0.10.0",
+    "node-uuid": "1.4.8",
+    "swagger-ui-express": "4.0.7"
+  }
+}

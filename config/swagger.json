@@ -1,0 +1,20 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "title": "Attendance API",
+      "description": "",
+      "version": "1.0"
+    },
+    "produces": ["application/json"],
+    "paths": {
+        "/user": {
+          "get": {
+            "x-swagger-router-controller": "user",
+            "operationId": "index",
+            "description": "[Login 123](https://www.google.com)",
+            "parameters": [],
+            "responses": {}
+          }
+        }
+    }
+ }
